@@ -13,3 +13,7 @@ make -C docs clean && make -C docs html
 sphinx-build -b html docs/source docs/_build/html -c docs/source
 
 sphinx-autobuild docs/source docs/_build/html -c docs/source
+
+## Github
+
+1 - Ve a Settings/Pages[GitHub Pages]/Branch. Select  gh-pages and /docs , click en Save
