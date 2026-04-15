@@ -28,6 +28,9 @@ jobs:
         run: |
           sphinx-build -b html docs/source docs/_build/html -c docs/source
 
+      - name: Copy CNAME for GitHub Pages
+        run: cp docs/CNAME docs/_build/html/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:

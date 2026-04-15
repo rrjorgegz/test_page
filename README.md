@@ -10,4 +10,6 @@ make -C docs clean && make -C docs html
 
 ## Developtment
 
-sphinx-autobuild -c ./docs/source ./docs/source ../_build/html
+sphinx-build -b html docs/source docs/_build/html -c docs/source
+
+sphinx-autobuild docs/source docs/_build/html -c docs/source
