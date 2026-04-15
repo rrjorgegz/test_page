@@ -16,4 +16,4 @@ sphinx-autobuild docs/source docs/_build/html -c docs/source
 
 ## Github
 
-1 - Ve a Settings/Pages[GitHub Pages]/Branch. Select  gh-pages and /docs , click en Save
+1 - Ve a Settings/Pages[GitHub Pages]/Branch. Select  gh-pages and /(root) , click en Save
